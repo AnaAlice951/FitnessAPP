@@ -6,3 +6,7 @@ export async function GET() {
 
   return Response.json({ data });
 }
+
+export async function POST(request: Request) {
+  return Response.json('hello');
+}
